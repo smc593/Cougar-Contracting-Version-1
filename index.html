@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cougar Contracting</title>
+<meta name="keywords" content="HTML5,CSS3,HTML" >
+
+
+<!-- FONTS ONLINE -->
+<link href='http://fonts.googleapis.com/css?family=Exo+2:700,600,200,800,300,400,500,100,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+<!--MAIN STYLE-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<!-- Page Wrap ===========================================-->
+<div id="wrap"> 
+  
+  <!--======= TOP BAR =========-->
+  <div class="top-bar">
+    <div class="container">
+      <ul class="left-bar-side">
+        <li>
+          <p class="exo">Performance.</p>
+        </li>
+        <li>
+          <p class="exo"> People.</p>
+        </li>
+        <li>
+          <p class="exo"> Service. </p>
+        </li>
+      </ul>
+      <ul class="right-bar-side social_icons">
+        <li class="facebook"> <a href="#."><i class="fa fa-facebook"></i> </a></li>
+        <li class="linkedin"> <a href="#."><i class="fa fa-linkedin"></i> </a></li>
+        
+      </ul>
+    </div>
+  </div>
+  
+  <!--======= HEADER =========-->
+  <header>
+    <div class="container"> 
+      
+      <!--======= LOGO =========-->
+      <div class="logo"> <a href="#."><img src="images/cougar contracting icon.gif" alt="" ></a> </div>
+      
+      <!--======= TOP INFORMATION =========-->
+      <div class="header-contact">
+        <ul class="row">
+          <li class="col-xs-6"> <i class="fa fa-home"></i>
+            <p class="exo">
+29305 Wall Street
+Wixom, MI 48393
+
+</p>
+          </li>
+          <li class="col-xs-6"> <i class="fa fa-phone"></i>
+            <h6>(248) 348-8860</h6>
+            <p class="exo">Fax: (248) 348-0511</p>
+          </li>
+        </ul>
+      </div>
+      
+      <!--======= NAV =========-->
+      <nav> 
+        
+        <!--======= MENU START =========-->
+        <ul class="ownmenu">
+          <li class="active"><a href="index.html">Home</a>
+          </li>
+          <li><a href="#services">Products</a></li>
+         
+          <li><a href="12-Contact-Page.html">Contact us</a></li>
+          
+        
+        <!--======= SUBMIT COUPON =========-->
+        <div class="sub-nav-co"> <a href="#."><i class="fa fa-search"></i></a> </div>
+      </nav>
+    </div>
+  </header>
+  
+  <!--======= BANNER =========-->
+  <div id="banner">
+    <div class="flex-banner">
+      <ul class="slides">
+        <li> <img src="https://cdn.pixabay.com/photo/2013/04/13/00/48/skill-saw-103124_960_720.jpg" alt="" > 
+          
+          <!--======= BANNER INNER =========-->
+          <div class="banner-up">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-5"> 
+                  
+                  <!--======= BANNER FORM =========-->
+                  <div class="bnr-form">
+                    <h3>Quick service request</h3>
+                    <h6>24 housrs service available!</h6>
+                    <!--<div id="banner_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Thank You. Your Message has been Submitted</div>-->
+                    <form role="form" id="banner_form" method="post" onsubmit="return false">
+                      <ul class="row">
+                        <li class="col-sm-6">
+                          <input type="text"  name="name" id="name" placeholder="Name" required>
+                        </li>
+                        <li class="col-sm-6">
+                          <input type="text"  name="phone" id="phone" placeholder="PHONE" required>
+                        </li>
+                        <li class="col-sm-12">
+                          <input type="text"  name="email" id="email" placeholder="email" required>
+                        </li>
+                        <li class="col-sm-12">
+                          <textarea  name="msgform" id="msgform" rows="5" placeholder="Description of work or services needed"></textarea>
+                        </li>
+                        <li class="col-sm-12">
+                          <button type="submit" value="submit" class="btn" id="btn_submit" onclick="bannerProceed();">SUBMIT</button>
+                        </li>
+                      </ul>
+                    </form>
+                  </div>
+                </div>
+                
+                <!--======= BANNER IMAGES =========-->
+                <div class="col-sm-7">
+                  <section> <img class="img-responsive pull-right" src="" alt=""> </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li> <img src="https://cdn.pixabay.com/photo/2015/02/24/00/16/construction-646918_960_720.jpg" alt="" > 
+          
+          <!--======= BANNER INNER =========-->
+          <div class="banner-up">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-5">
+                  <section> <img class="img-responsive pull-left" src="" alt=""> </section>
+                </div>
+                <div class="col-sm-7">
+                  <div class="text-sec">
+                    <section>
+                      <h1>just call <span>(248) 348-0511</span></h1>
+                    </section>
+                    <section>
+                      <h1>we are always  ready to service</h1>
+                    </section>
+                    <a href="#." class="btn btn-1">get quote</a><a href="contact-form" class="btn">about us</a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <!--======= SERVICES =========-->
+  <section class="services">
+    <div class="container"> 
+      
+      <!--======= SERVICES ROW =========-->
+      <ul class="row">
+        
+        <!--======= SERVICES =========-->
+        <li class="col-md-4 padding-r-80">
+          <div class="tittle">
+            <h2 class="text-left">Providing quality service has earned us a reputation for getting the job done right, on time and within budget.</h2>
+          </div>
+          <p>For over 30 years, Cougar has been known, throughout the industry, for its highly specialized concrete sawing and drilling services. Because our equipment is designed and manufactured to meet the distinctive needs of the industry, Cougar is able to saw and drill concrete more economically than most.</p>
+            <p>
+           In addition to being pre-qualified with the Michigan Department of Transportation, we are members of various trade associations, such as the Concrete Sawing and Drilling Association. </p>
+          <a href="#." class="btn">about more</a> </li>
+        
+        <!--======= SERVICES =========-->
+        <li class="col-md-4">
+          <div class="sec-in"> 
+            <h6>Horizontal Curb Cutting</h6>
+            <img src="images/horizonal curb cutting.jpg">
+            <p>Our machine was designed to cut the tops of curbs off only, eliminating the need to cut, breakout, and repour existing curbs to create new approaches.  </p>
+          </div>
+        </li>
+        
+        <!--======= SERVICES =========-->
+        <li class="col-md-4">
+          <div class="sec-in"> 
+            <h6>Core drilling</h6>
+            <img src="images/core drilling 2.jpg">
+            <p>Holes to 54" diameter. Again, we have drills to fulfill any need or site condition, consisting of multi speed, electric, hydraulic, and pneumatic drills. </p>
+             </div>
+        </li>
+        
+        <!--======= SERVICES =========-->
+        <li class="col-md-4">
+          <div class="sec-in"> 
+            <h6>Wall Sawing</h6>
+            <img src= "images/wall sawing.jpg">
+            <p>Depth to 30". We have the specialized equipment to cut flush with adjacent walls, finish corners with our cornercut diamond chainsaws or freehand diamond chainsaws capable to cutting squares as small as 4-1/2" through up to 24" thick concrete or masonry walls.</p>
+             </div>
+        </li>
+        
+        <!--======= SERVICES =========-->
+        <li class="col-md-4">
+          <div class="sec-in">
+            <h6>Wire Sawing</h6>
+            <img src="images/wire sawing.jpg">
+            <p>Sawing depth unlimited. A specialized stainless steel aircraft cable, fitted with diamond beadis looped around the concrete, using pulleys and tension to cut any depth or configuration required. </p>
+            </div>
+        </li>
+
+<li class="col-md-4">
+          <div class="sec-in">
+            <h6>Slab Sawing</h6>
+    <img src="images/slab sawing.jpg">
+            <p>Sawing depth to 30". With our diverse fleet of saws consisting of gas, diesel, propane, electric, hydraulic, pneumatic, and high cycle saws, we are capable of servicing your needs regardless of the site conditions.  </p>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <!--======= WELCOME =========-->
+  
+  
+ 
+  
+  
+      <!--======= PARTHNERS =========-->
+      
+    </div>
+  </section>
+  
+  <!--======= FOOTER =========-->
+  <footer>
+    <div class="container">
+      <ul class="row">
+       
+        
+         
+          <!--======= LINKS =========-->
+          
+        
+        
+        
+          <!--======= LINKS =========-->
+          
+        
+        <!--======= HAPPY CLIENTS =========-->
+        <li class="col-sm-3"> 
+          
+          <!--======= COUNTER =========-->
+       
+          <!--======= LINKS =========-->
+          
+            
+            <h5>Union Affiliations:</h5>
+          <hr>
+          <div class="links">
+        
+              <ul>
+            
+              <li><a href="#.">Operating Engineers</a></li>
+              <li><a href="#."> Local 324</a></li>
+              <li><a href="#."> Plumbers Local 98</a></li>
+              <li><a href="#."> Laboreres Local 334</a></li>
+              <li><a href="#."> Laborers Local 1076</a></li>
+    
+            </ul>
+          </div>
+          
+          <!--======= SOCIAL ICONS =========-->
+          
+          <ul class="social_icons">
+            <li class="facebook"> <a href="#."><i class="fa fa-facebook"></i> </a></li>
+            <li class="linkedin"> <a href="#."><i class="fa fa-linkedin"></i> </a></li>
+            
+        </li>
+      </ul>
+    </div>
+    <div class="rights">
+      <p>Copyright © 2017 Cougar Contracting. All Rights Reserved.</p>
+    <p>Web Design: scarter628@nyu.edu</p>
+    </div>
+  </footer>
+</div>
+<script src="js/jquery-1.11.0.min.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.stellar.js"></script> 
+<script src="js/jquery.isotope.min.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/counter.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/jquery.sticky.js"></script> 
+<script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="js/own-menu.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
